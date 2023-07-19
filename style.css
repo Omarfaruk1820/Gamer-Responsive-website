@@ -1,0 +1,524 @@
+*{
+    box-sizing:border-box;
+}
+
+
+nav{
+    background-color:rgb(239, 235, 235); 
+}
+.nav-container{
+    
+    min-height:30px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width:1400px;
+    margin:0 auto;
+    background-color:rgb(239, 235, 235);
+    margin:20px 100px;
+}
+.logo-container{
+
+display:flex;
+
+width:50%;
+}
+.logo-container img{
+    
+    width:80px;
+    margin-right:10px;
+    height:30px;
+    margin-top:30px;
+    
+    
+    
+    
+}
+.logo-container p{
+    font-size:30px;
+    width:100px;
+}
+
+.nav-items-container{
+   
+    display:flex;
+    justify-content:space-between;
+    width:50%;
+    padding-right:50px;
+    align-items:center;
+    
+}
+.nav-items-container a{
+    text-decoration: none;
+    color:black;
+
+}
+.follow-me{
+    background-color:rgb(215, 156, 156);
+    padding:5px 15px;
+    border-radius:7px;
+    width:250px;
+    height:50px;
+    font-size:20px;
+    margin-top:5px;
+    
+}
+/* banner-section*/
+
+.banner-section{
+    width:100%;
+    margin-top:50px;
+    display:flex;
+    gap:10px;
+    
+}
+.description{
+    margin-top:150px;
+}
+
+.left-side-banner{
+    width:90%;
+    height:700px;
+    background-repeat: no-repeat;
+    
+    background-image: url("./images/Group\ 14.png");
+    text-align:center;
+    background-color: white;
+    
+}
+.right-side-banner{
+    width:100%;
+    background-image:url('./images/Group\ 18.png');
+    height:700px;
+    background-repeat: no-repeat;
+    text-align:center;
+    padding:0px  150px;
+    margin:0 70px;
+}
+.left-side-heading{
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:5px;
+    
+}
+.goat{
+    font-size:80px;
+    font-weight:700;
+    margin-top:20px;
+    color:blueviolet;
+    margin-bottom:5px;
+}
+.icon{
+    font-size:20px;
+    color:rgb(190, 157, 157);
+}
+
+
+.btn-1{
+    width:120px;
+    height:50px;
+    background-color: rgb(26, 131, 235);
+    border-radius:20px;
+    border:none;
+    color:white;
+   
+}
+.btn-2{
+    width:120px;
+    height:50px;
+    background-color: rgb(74, 214, 167);
+    border-radius:20px;
+    border:none;
+    color:white;
+}
+
+/* gamer section start*/
+.gamer{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row-reverse;
+    
+    background-color:rgb(233, 227, 227);
+    justify-content:center;
+    text-align:center;
+    margin-left:0px 20px;
+    
+
+}
+.gamer-right img{
+    width:100%;
+    height:auto;
+
+}
+.gamer-left{
+    width:100%;
+    height:auto;
+    text-align:center;
+}
+.gamer-heading{
+    font-size:40px;
+    color:blueviolet;
+    margin-left:20px;
+    margin:5px 0px; 
+}
+.gamer-description{
+    margin-top:10px;
+    width:400px;
+    height:100px;
+    font-size:15px;
+    margin-right:40px;
+    color:rgb(141, 122, 122);
+}
+.btn-3{
+    width:150px;
+    height:50px;
+    background-color: rgb(74, 214, 167);
+    border-radius:20px;
+    border:none;
+    color:white;
+}
+.purpose{
+    font-size:18px;
+    color:rgb(169, 152, 152);
+}
+.unleash{
+    font-weight:900;
+    color:rgb(107, 102, 102);
+}
+.images-section{
+    width:80%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    
+    justify-content: center;
+    margin:0px 0px 0px 150px;
+    gap:10px;
+    margin-top:50px;
+    
+}
+.box img{
+    width:250px;
+}
+.image-description{
+    font-size:16px;
+    width:200px;
+    height:50px;
+    text-align:center;
+}
+.box-section{
+    margin-top:50px;
+    text-align:center;
+}
+.box-heading{
+    font-size:50px;
+}
+.box-heading span{
+    color:blueviolet;
+}
+.box-description{
+    color:gray;
+}
+.hors-power-section{
+    width:100%;
+    height:auto;
+    display:flex;
+    margin-top:70px;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+    margin-bottom: 40px;
+    
+}
+.hors-power-left{
+    width:80%;
+    
+    align-items:center;
+}
+.men-photo{
+    width:450px;
+    height:450px;
+    margin-top:100px;
+
+}
+.hors-power-description{
+    width:300px;
+    height:100px;
+   
+    margin-left:145px;
+}
+.hors-power-right{
+    width:80%;
+    
+    
+}
+.hors-power-left span{
+    color:rgb(126, 42, 204)
+}
+.nishat{
+    font-size:40px;
+    
+}
+.girl{
+    width:220px;
+    height:220px;
+    position:relative;
+    top:-200px;
+    left:-190px;
+    
+}
+/* */
+.cotton-power-section{
+    width:100%;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+    text-align:center;
+    align-items:center;
+   
+    
+
+}
+.cotton-left{
+    align-items:center;
+    width:80%;
+    
+}
+.cotton-right{
+    align-items:center;
+    width:80%;
+}
+.cotton-photo{
+    width:450px;
+    height:450px;
+    margin-top:100px;
+}
+.cotton-description{
+    width:300px;
+    height:100px;
+    margin-left:160px;
+    color:rgb(147, 137, 137)
+
+}
+.girl-cotton{
+    width:220px;
+    height:220px;
+    position:relative;
+    top:-170px;
+    right:-180px;
+}
+.cotton{
+    font-size:40px;
+    font-weight:700;
+}
+.cotton span{
+    color:blue;
+}
+/*  */
+.careers-section{
+    width:100%;
+    height:auto;
+    display:flex;
+    gap:10px;
+    background-color:magenta;
+
+    
+}
+.Careers{
+    width:100%;
+   
+    padding-left:50px;
+    color:white;
+}
+.children{
+    width:100%;
+    
+}
+.children img{
+    width:500px;
+    height:500px;
+}
+.ultimedia{
+    width:100%;
+    display:flex;
+    gap:10px;
+    justify-content: space-between;
+}
+.Data-Engineer{
+    width:100%;
+}
+.Lisbon{
+    width:100%;
+}
+.Careers-section{
+    font-size:30px;
+    font-weight:700;
+}
+.careers-description{
+    font-size:16px;
+    width:500px;
+    height:90px;
+    color:white;
+    
+    margin-left:8px;
+}
+.career-header{
+    font-size:16px;
+    color:white;
+}
+.btn-4{
+    margin-top:40px;
+    width:200px;
+    height:60px;
+    font-size:25px;
+    
+    color:deeppink;
+    border-radius:15px;
+    border:none;
+
+}
+
+.Action-Games{
+    margin-top:100px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    width:80%;
+    justify-content: center;
+    align-items:center;
+    margin-left:120px;
+    height:auto;
+    
+}
+.cotton-image{
+    width:200px;
+    height:70px;
+    border-radius:30px;
+    border:none;
+    
+}
+.cute-cotton{
+    width:40px;
+    height:40px;
+}
+
+footer{
+    width:100%;
+    background-color: darkblue;
+    height:auto;
+    padding-top:50px;
+    margin-top:50px;
+}
+.footer-section{
+    width:100%;
+    height:auto;
+    display:flex;
+    
+    margin-top:50px;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+}
+.logo{
+    width:70px;
+    height:30px;
+}
+div span{
+    color:deeppink;
+}
+div h2{
+    font-size:18px;
+    color:white;
+}
+.footer-section-2{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:35px;
+    
+}
+.footer-section-3{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:45px;
+}
+.footer-section-4{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:25px;
+
+}
+.last-part{
+    text-align:center;
+}
+.icon{
+    color:white;
+}
+.pricacy{
+    color:white;
+    font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+    .nav-container,
+    .banner-section
+    {
+        flex-direction: column;
+        margin-left:30px;
+    }
+
+.gamer{
+flex-direction:column;
+}
+.nav-items-container{
+        flex-direction: column;
+        width:100%;
+    }
+    .nav-items-container a{
+        margin-top:20px;
+    }
+    .nav-items-container .follow-me{
+        width:100%;
+    }
+    .images-section{
+flex-direction: column;
+text-align:center;
+
+    }
+    .hors-power-section{
+        flex-direction: column;
+    }
+    .cotton-power-section{
+        flex-direction: column;
+    }
+    .careers-section{
+        flex-direction: column;
+    }
+    .Action-Games{
+        grid-template-columns: 2fr;
+    }
+    .footer-section{
+        flex-direction: column;
+    }
+    .footer-section-2,
+    .footer-section-3,
+    .footer-section-4{
+        flex-direction: column;
+    }
+
+
+}
