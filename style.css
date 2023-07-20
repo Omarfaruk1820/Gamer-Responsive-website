@@ -195,12 +195,14 @@ width:50%;
     border-radius:20px;
     border:none;
     color:white;
+    margin-top:20px;
 }
 .purpose{
     font-size:18px;
     color:rgb(169, 152, 152);
 }
 .unleash{
+    font-size:25px;
     font-weight:900;
     color:rgb(107, 102, 102);
 }
@@ -254,20 +256,24 @@ width:50%;
 .hors-power-left{
     width:80%;
     
-    align-items:center;
+   text-align:center;
 }
 .men-photo{
-    width:450px;
-    height:450px;
+    width:400px;
+    height:400px;
     margin-top:100px;
 
 }
 .hors-power-description{
-    width:300px;
+    width:400px;
     height:100px;
+    
+    text-align:center;
+    margin-left:50px;
+    
    
-    margin-left:145px;
-    letter-spacing: normal;
+    
+    
 }
 .hors-power-right{
     width:80%;
@@ -279,11 +285,12 @@ width:50%;
 }
 .nishat{
     font-size:40px;
+    color:black;
     
 }
 .girl{
-    width:220px;
-    height:220px;
+    width:200px;
+    height:200px;
     position:relative;
     top:-200px;
     left:-190px;
@@ -304,6 +311,7 @@ width:50%;
 .cotton-left{
     align-items:center;
     width:80%;
+    justify-content: center;
     
 }
 .cotton-right{
@@ -311,20 +319,22 @@ width:50%;
     width:80%;
 }
 .cotton-photo{
-    width:450px;
-    height:450px;
+    width:400px;
+    height:400px;
     margin-top:100px;
 }
 .cotton-description{
-    width:300px;
-    height:100px;
-    margin-left:160px;
-    color:rgb(147, 137, 137)
+    width:400px;
+    height:90px;
+    margin-left:100px;
+    font-size:16px;
+    color:rgb(147, 137, 137);
+     
 
 }
 .girl-cotton{
-    width:220px;
-    height:220px;
+    width:200px;
+    height:200px;
     position:relative;
     top:-170px;
     right:-180px;
@@ -332,6 +342,7 @@ width:50%;
 .cotton{
     font-size:40px;
     font-weight:700;
+    color:black;
 }
 .cotton span{
     color:blue;
