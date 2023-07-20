@@ -394,7 +394,7 @@ width:50%;
     font-size:14px;
     width:550px;
     height:120px;
-    color:white;
+    color:rgb(249, 249, 249);
     
     
     margin-left:30px;
@@ -404,14 +404,15 @@ width:50%;
     color:white;
 }
 .btn-4{
-    margin-top:40px;
-    width:200px;
+    margin-top:30px;
+    width:220px;
     height:60px;
     font-size:25px;
     
     color:deeppink;
-    border-radius:15px;
+    border-radius:25px;
     border:none;
+    margin-bottom: 40px;
 
 }
 
